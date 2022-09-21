@@ -4,8 +4,8 @@ using namespace std;
 
 int main() {
   
-   // 1. Create a Box type object called box1
-  
+   Box B1;
+   
   
    // ======= DO NOT CHANGE THE INPUT ===========
    int height, length, width;
@@ -17,7 +17,10 @@ int main() {
    cin >> width;
    // ===========================================
   
-   // 2. Use setters assign height, length, width throw
+   B1.setLength(int length);
+   B1.setWidth(int width);
+   B1.setHeight(int height);
+  
   
    // === DO NOT CHANGE THE OUTPUT =============
    cout << "Box Height " << box1.getHeight() << endl;
